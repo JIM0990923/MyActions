@@ -27,5 +27,5 @@ jobs:
               env:
                   XMLY_SPEED_COOKIE: ${{ secrets.XMLY_SPEED_COOKIE }}
                   XMLY_ANDROID_AGENT: ${{ secrets.XMLY_ANDROID_AGENT }}
-                  BARK_MACHINE_CODE: ${{ secrets.BARK_MACHINE_CODE }}:  
+                  BARK_MACHINE_CODE: ${{ secrets.BARK_MACHINE_CODE }} 
                   SYNCURL: https://github.com/Zero-S1/xmly_speed/raw/master/xmly_speed.py
